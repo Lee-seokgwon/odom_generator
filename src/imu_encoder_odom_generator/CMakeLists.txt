@@ -20,13 +20,13 @@ find_package(tf2_geometry_msgs REQUIRED)
 include_directories(include)
 
 # Add executable
-add_executable(imu_encoder_odom_node
+add_executable(imu_encoder_odom_generator_node
   src/main.cpp
   src/imu_encoder_odom_generator.cpp
 )
 
 # Specify dependencies
-ament_target_dependencies(imu_encoder_odom_node
+ament_target_dependencies(imu_encoder_odom_generator_node
   rclcpp
   sensor_msgs
   std_msgs
@@ -39,7 +39,7 @@ ament_target_dependencies(imu_encoder_odom_node
 
 # Install targets
 install(TARGETS
-  imu_encoder_odom_node
+  imu_encoder_odom_generator_node
   DESTINATION lib/${PROJECT_NAME}
 )
 

@@ -29,8 +29,8 @@ class DummyDataPublisher(Node):
         # Robot parameters
         self.WHEEL_RADIUS = 0.033  # m
         self.ONE_ROUND_ENC = 1000  # ticks per revolution
-        self.SIMULATION_SPEED = 0.1  # m/s
-        self.SIMULATION_ANGULAR_SPEED = 0.2  # rad/s
+        self.SIMULATION_SPEED = 0.5  # m/s (더 빠른 직진)
+        self.SIMULATION_ANGULAR_SPEED = 0.1  # rad/s (더 느린 회전)
         
         self.get_logger().info('🎯 Dummy Data Publisher Started!')
         self.get_logger().info('Publishing dummy data to:')
