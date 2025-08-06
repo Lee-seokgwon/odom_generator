@@ -14,9 +14,9 @@ def generate_launch_description():
         
         # IMU Encoder Odometry Node
         Node(
-            package='imu_encoder_odom',
-            executable='imu_encoder_odom_node',
-            name='imu_encoder_odom',
+            package='imu_encoder_odom_generator',
+            executable='imu_encoder_odom_generator_node',
+            name='imu_encoder_odom_generator',
             output='screen',
             parameters=[
                 {'use_sim_time': LaunchConfiguration('use_sim_time')}

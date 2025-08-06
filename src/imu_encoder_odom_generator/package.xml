@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>imu_encoder_odom</name>
+  <name>imu_encoder_odom_generator</name>
   <version>0.0.0</version>
   <description>IMU and encoder based odometry package</description>
   <maintainer email="your-email@example.com">Your Name</maintainer>
