@@ -1,0 +1,42 @@
+# ROS 2 build files
+build/
+install/
+log/
+
+# ROS 2 workspace configuration
+*.workspace
+*.workspace.json
+
+# VSCode settings
+.vscode/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+*_build/
+
+# Python virtual environment (if used)
+*.venv/
+*.env/
+
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Dependency directories
+*.dep
+*.d
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# ROS 2 specific
+*.pyc
+*.pyo
