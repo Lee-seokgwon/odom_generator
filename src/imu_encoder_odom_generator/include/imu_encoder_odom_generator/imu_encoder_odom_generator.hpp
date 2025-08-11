@@ -38,9 +38,9 @@ private:
   std::unique_ptr<tf2_ros::TransformBroadcaster> tf_broadcaster_;
 
   // Robot parameters
-  static constexpr double WHEEL_RADIUS = 0.103;  // 바퀴 반지름 (m) - 실제 값으로 수정 필요 (mdh80)
-  static constexpr double WHEEL_BASE = 0.4;    // 바퀴 간격 (m) - 실제 값으로 수정 필요
-  static constexpr int32_t ONE_ROUND_ENC = 16384; // 한 바퀴당 엔코더 틱 - 실제 값으로 수정 필요
+  static constexpr double WHEEL_RADIUS = 0.0535;  // 바퀴 반지름 (m) - 실제 값으로 수정 필요 (mdh80)
+  static constexpr double WHEEL_BASE = 0.35;    // 바퀴 간격 (m) - 실제 값으로 수정 필요
+  static constexpr int32_t ONE_ROUND_ENC = 4096; // 한 바퀴당 엔코더 틱 - 실제 값으로 수정 필요
 
   // Sensor data
   geometry_msgs::msg::Quaternion imu_quaternion_;
